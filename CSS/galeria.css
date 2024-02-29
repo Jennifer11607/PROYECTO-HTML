@@ -1,0 +1,134 @@
+body{
+    background-image: url(../IMAGES/ya.webp);
+    background-size: cover;
+    background-position: center center;
+
+}
+h1{
+    color: aqua;
+    text-shadow: 1px 2px 2px black, 0 0 25px blue, 0 0 5px blue;
+    text-align: center;
+    font-size: 250%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 2mm;
+}
+
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightpink, 0 6px 20px 0 green;
+    float: left;
+    width: 300px;
+    margin-left: 1cm;
+
+}
+.imagen{
+    width: 125px;
+    height: 125px;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+div.galeria:hover{
+    border: 1px solid rgba(17, 215, 198, 0.803);
+    transform: rotate(-3deg);
+
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(62, 0, 128);
+    padding: 25px;
+    background-color: rgba(7, 85, 104, 0.689);
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+nav{
+    background: rgba(64, 224, 208, 0.926);
+    height: 80px;
+    width: 100%;
+
+}
+.enlace{
+    position: absolute;
+    padding: 30px 60px;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+    border-radius: 1cm;
+    transform: translate(-50%, -37%);
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-align: uppercase;
+}
+li a.active, li a:hover{
+    background: #002690;
+    transition: .5s;
+    border-radius: 2cm;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+section{
+    background: url(../IMAGES/esa.avif) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+.titulo{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -15%);
+    width: 700px;
+    background: rgba(300, 300, 300, 300);
+    background-color: rgba(255, 192, 203, 0.36);
+    border-radius: 20px;
+    font-family: "Pacifico", cursiva; peso de fuente: 400; estilo de fuente: normal;
+    
+}
+
+.titulo h1{
+    font-size: 75px;
+    color: rgba(136, 7, 97, 0.655);
+    text-shadow:4px 4px 0 rgba(255, 0, 0, 0.463);
+}
+.titulo h3{
+    font-size: 35px;
+    color: black;
+    font-family: cursive;
+
+}
